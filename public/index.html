@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Jogo da #Velha | Workshop de Informática</title>
+	<meta content="width=device-width, maximum-scale=1, initial-scale=1.0" name="viewport">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body data-route="register">
+	<div class="wrapper">
+
+		<form action="" class="show-element" data-element-form>
+			<input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+			<input type="submit" class="btn-primary" value="Entrar">
+		</form>
+
+		<div class="header-users hide" data-element-profile></div>
+
+	 	<div class="game hide" data-element-draw-table>
+	 		<button class="item" data-position="0,0"></button>
+	 		<button class="item" data-position="0,1"></button>
+	 		<button class="item" data-position="0,2"></button>
+
+	 		<button class="item" data-position="1,0"></button>
+	 		<button class="item" data-position="1,1"></button>
+	 		<button class="item" data-position="1,2"></button>
+
+	 		<button class="item" data-position="2,0"></button>
+	 		<button class="item" data-position="2,1"></button>
+	 		<button class="item" data-position="2,2"></button>
+		</div>
+
+		<div class="overlay hide" data-element-winner>
+			<p class="message">Voce ganhou, isso ai manolo!</p>
+		</div>
+
+		<div class="overlay hide" data-element-loser>
+			<p class="message">Você perdeu, que pena!</p>
+			<button class="btn-secondary" data-action="again">Jogar Novamente</button>
+		</div>
+
+		<div class="overlay hide" data-element-equalizer>
+			<p class="message">Deu Velha!</p>
+			<button class="btn-secondary" data-action="again">Jogar Novamente</button>
+		</div>
+	</div>
+
+	<script src="built.js"></script>
+</body>
+</html>

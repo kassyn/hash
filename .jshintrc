@@ -1,0 +1,22 @@
+{
+	"curly": true,
+	"eqnull": true,
+	"undef": true,
+	"browser": true,
+	"laxcomma": true,
+	"noarg": true,
+	"expr": true,
+	"latedef": true,
+	"immed": true,
+	"sub": true,	
+	"globals": {
+		"Zepto": true,
+		"Module": true,
+		"Route": true,
+		"JEDAI": true,
+		"$": true,
+		"Handlebars" : true,
+		"console" : true,
+		"io" : true
+	}
+}
