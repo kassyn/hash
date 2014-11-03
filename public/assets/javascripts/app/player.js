@@ -10,7 +10,7 @@ Module( 'JEDAI.Player', function(Player) {
 		this.identifier = ( new Date() ).getTime();
 		this._isLock    = true;
 		this._isLoser   = false;
-		this.logic 		= null;
+		this.logic      = null;
 		this.name       = null;
 		this.avatar     = null;
 		this._assign( attrs );
